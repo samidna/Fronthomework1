@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainFont: "Proxima Nova";
+}
+
+body {
+    background-color: #6bc0e4;
+}
+
+.container {
+    max-width: 351px;
+    margin: auto;
+}
+
+.general .second {
+    background-color: #f1f8fc;
+    width: 440px;
+}
+
+.general .second h1 {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: var(--mainFont);
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.general .second input {
+    opacity: 0.702;
+    width: 351px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7019607843137254);
+    border: 1px solid #d8d8d8;
+    opacity: 0.902;
+    font-size: px;
+    color: #555555;
+    font-weight: 300;
+    font-family: var(--mainFont);
+    border: none;
+    outline: none;
+    /* padding-left: 15px; */
+    margin-bottom: 47px;display: flex;
+}
+
+.general .second label {
+    opacity: 0.800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: var(--mainFont);
+}
+
+.general .second input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    border-radius: 15px;
+    background-color: #04a9f4;
+    margin: 10px 330px 25px 0;
+}
+
+.general .second input[type="password"] {
+    opacity: 0.902;
+    color: #6e6e6e;
+}
